@@ -1,0 +1,21 @@
+### Variable
+@baseUrl = http://localhost:4741/houses/
+
+### Index
+{{baseUrl}}
+
+### Select
+{{baseUrl}}/1
+
+### Create
+POST {{baseUrl}}
+content-type: application/json
+
+{
+  "house": {
+    "animal": "animal",
+    "school_id": 1
+  }
+}
+
+

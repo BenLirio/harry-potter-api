@@ -1,0 +1,20 @@
+### Variable
+@baseUrl = http://localhost:4741/students/
+
+### Index
+{{baseUrl}}
+
+### Select
+{{baseUrl}}/1
+
+### Create
+POST {{baseUrl}}
+content-type: application/json
+
+{
+  "student": {
+    "last_name":"a"
+  }
+}
+
+
